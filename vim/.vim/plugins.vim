@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-speeddating'
+Plug 'tpope/vim-unimpaired'
 Plug 'ajh17/VimCompletesMe'
 Plug 'tommcdo/vim-exchange'
 Plug 'junegunn/vim-easy-align'

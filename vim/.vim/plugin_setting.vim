@@ -13,6 +13,7 @@ nmap ga <Plug>(EasyAlign)
 
 "" VimTeX
 let g:vimtex_view_method = 'mupdf'
+let g:vimtex_compiler_latexmk = {'callback': 0}
 
 "" Markdown
 " Enable mardown for non-standard extensions
