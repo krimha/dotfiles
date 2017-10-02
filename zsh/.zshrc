@@ -168,3 +168,11 @@ mcd () {
 edsc() {
     vim $(which "$1")
 }
+
+# Make `fuck` more Ned Flanders-friendly
+# For use with https://github.com/nvbn/thefuck
+alias darn="fuck"
+
+
+
+eval $(thefuck --alias)
