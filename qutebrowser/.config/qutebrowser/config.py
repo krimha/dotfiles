@@ -2,7 +2,8 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
         'r': 'https://reddit.com/r/{}',
         'g': 'https://google.com/search?q={}',
         'so': 'https://stackoverflow.com/search?q={}',
-        'w': 'https://en.wikipedia.org/w/index.php?search={}'
+        'w': 'https://en.wikipedia.org/w/index.php?search={}',
+        'd': 'http://www.dictionary.com/browse/{}'
         }
 
 config.bind('d', 'scroll-page 0 0.5')
