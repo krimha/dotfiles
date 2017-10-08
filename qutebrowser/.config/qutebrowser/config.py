@@ -6,6 +6,7 @@ c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
         'd': 'http://www.dictionary.com/browse/{}'
         }
 
+# Bindings for normal mode
 config.bind('d', 'scroll-page 0 0.5')
 config.bind('u', 'scroll-page 0 -0.5')
 
