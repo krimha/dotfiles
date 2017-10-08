@@ -172,7 +172,13 @@ edsc() {
 # Make `fuck` more Ned Flanders-friendly
 # For use with https://github.com/nvbn/thefuck
 alias darn="fuck"
-
-
-
 eval $(thefuck --alias)
+
+# Only things for interactive
+# i.e. Things here will not be defined when running scripts
+# Check if PS1 is set
+[ -z "$PS1" ] && return
+
+function cd {
+    builtin cd "$@" && ls -F
+}
