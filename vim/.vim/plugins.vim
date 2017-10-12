@@ -15,6 +15,8 @@ Plug 'lervag/vimtex'
 Plug 'haya14busa/incsearch.vim'
 Plug 'mattn/emmet-vim'
 
+Plug 'suan/vim-instant-markdown'
+
 "" Mild pair closing.
 " Together they handle only closing of blocks (if, class etc)
 Plug 'rstacruz/vim-closer'
