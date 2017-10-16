@@ -156,6 +156,9 @@ process() {
 }
 alias tp=process
 
+alias cwd="pwd | xclip"
+alias cdwd="cd $(xclip -o)"
+
 
 # Import colorscheme from wal
 printf $(wal -r &)
